@@ -1,0 +1,37 @@
+.space{
+    background-color: white;
+}
+.food{
+    background-color: red;
+}
+.body{
+    background-color: black;   
+}
+.wall{
+    background: gray;
+}
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+}
+
+#box{
+    height: 40px;
+    width: 461px;
+    border: 1px solid #000;
+    margin: 20px auto;
+    line-height: 40px
+}
+.score{
+    margin-right: 150px;
+}
+.time{
+    
+}

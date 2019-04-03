@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RulerLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1694ec49d70" ></w:Config>
+	<e:Image id="background" x="0" y="0" source="rulerBg_png"/>
+	<e:Image id="title" y="43" source="rulerTitle_png" horizontalCenter="0"/>
+	<e:Scroller width="638" height="522" x="1" y="186" anchorOffsetY="0" anchorOffsetX="0">
+		<e:Group>
+			<e:Image id="ruler" y="0" source="rulerText_png" anchorOffsetY="0" height="650" horizontalCenter="0"/>
+		</e:Group>
+	</e:Scroller>
+	<e:Image id="IknowBtn" y="862" source="IknowBtn_png" horizontalCenter="0"/>
+</e:Skin>
