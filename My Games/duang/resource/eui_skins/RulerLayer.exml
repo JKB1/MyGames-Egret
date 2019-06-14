@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="rulerLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="16a0d87a47f" ></w:Config>
+	<e:Rect width="640" height="1008" x="0" y="0" strokeAlpha="0.5" fillAlpha="0.5" fillColor="0x777474"/>
+	<e:Image id="close" x="527" y="33" source="Close_png" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>
