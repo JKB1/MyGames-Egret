@@ -166,6 +166,7 @@ var Main = (function (_super) {
      * Create scene interface
      */
     Main.prototype.createGameScene = function () {
+        //画地图
         var floor = new Floor();
         floor.init();
         var snake = new Snake(floor);

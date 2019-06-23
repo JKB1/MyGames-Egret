@@ -1,20 +1,20 @@
 class Snake extends egret.DisplayObjectContainer{
-	private snakeLength: number;
-	public snakeBody: Block[];
-	private snakeSpeed: number;
+	private snakeLength: number;//蛇的长度
+	public snakeBody: Block[];//蛇的身体
+	private snakeSpeed: number;//蛇的速度
 	private floor: Floor;
-	private direction: Direction;
-	private timer1: egret.Timer;
-	private timer2: egret.Timer;
+	private direction: Direction;//蛇运动的方向
+	private timer1: egret.Timer;//控制蛇的移动 
+	private timer2: egret.Timer;//时间
 	private score: number = 0;
-	public foodBlock: Block;
+	public foodBlock: Block;//食物
 	public statusLayer: statusLayer;
 	public constructor(floor : Floor) {
 		super();
 		this.floor = floor;
 		this.snakeBody = [];
 		this.snakeLength =  3;//蛇出生时的长度
-		this.snakeSpeed  =  1000;
+		this.snakeSpeed  =  500;//初始化蛇的速度
 		this.direction = Direction.right;//初始化原始运动方向
 		this.statusLayer = new statusLayer();
 	}
@@ -24,6 +24,7 @@ class Snake extends egret.DisplayObjectContainer{
 		for(let i = this.snakeLength - 1; i >= 0 ; i--){
 			this.snakeBody.push(this.floor.blocks[i]);
 		}
+		//遍历蛇的的身体数组，给蛇的身体着色
 		this.snakeBody.forEach(
 			value => {
 				value.type = FLOOR.BODY;
@@ -43,12 +44,12 @@ class Snake extends egret.DisplayObjectContainer{
 		this.statusLayer.timer2 = this.timer2;
 		this.keyBoardEvent();
 	}
-	//（使蛇运动起来）
+	//使蛇运动起来ß
 	public snakeMove(){
 		//蛇的速度随着时间的减少而变快
 		this.snakeSpeed -= this.statusLayer.currentGameTime*4;
 		//改变触发时间
-		this.timer1.delay = this.snakeSpeed<=200 ? 200 : this.snakeSpeed ;
+		this.timer1.delay = this.snakeSpeed<=150 ? 150 : this.snakeSpeed ;
 		let head = this.snakeBody[0];
 		let tail = this.snakeBody[this.snakeBody.length - 1];
 		let next = this.next(head,this.direction);// 获取下一个block
@@ -57,7 +58,8 @@ class Snake extends egret.DisplayObjectContainer{
 			this.snakeDie();
 			return;
 		}
-		if(next  === this.foodBlock){
+		//下一个方块与食物对的坐标是否一样，即当前食物就是当前蛇头
+		if(next.position.x  == this.foodBlock.position.x && next.position.y  == this.foodBlock.position.y){
 			this.eatFood(next);
 		} 
 		//蛇移动导致的数组变换

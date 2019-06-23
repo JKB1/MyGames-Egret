@@ -5,8 +5,8 @@ var Floor = (function () {
     function Floor() {
         this.table = document.createElement('table');
         this.parents = document.body;
-        this.row = 20;
-        this.col = 20;
+        this.row = 20; //最大行
+        this.col = 20; //最大列
         this.blocks = [];
         this.walls = []; //墙
     }

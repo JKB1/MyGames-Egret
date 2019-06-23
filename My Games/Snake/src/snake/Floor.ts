@@ -4,14 +4,14 @@ class Floor {
 	private table: HTMLTableElement;
 	private parents: HTMLElement;
 	public blocks: Block[];//白色方块
-	private walls: Block[];
-	private snakeBody: Block[];
+	private walls: Block[];//墙
+	private snakeBody: Block[];//蛇的身体
 
 	public constructor() {
 		this.table = document.createElement('table');
 		this.parents = document.body;
-		this.row = 20;
-		this.col = 20;
+		this.row = 20;//最大行
+		this.col = 20;//最大列
 		this.blocks = [];
 		this.walls = [];//墙
 	}

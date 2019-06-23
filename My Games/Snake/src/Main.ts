@@ -100,6 +100,7 @@ class Main extends eui.UILayer {
      * Create scene interface
      */
     protected createGameScene(): void {
+        //画地图
         let floor =  new Floor();
         floor.init();
         let snake = new Snake(floor);

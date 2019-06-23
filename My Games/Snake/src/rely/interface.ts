@@ -1,4 +1,5 @@
 // TypeScript file
+// 定义一些数据类型接口
 const FLOOR = {
     SPACE: "space",
     FOOD: "food",
