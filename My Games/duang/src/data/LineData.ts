@@ -7,7 +7,7 @@ class LineData{
 		//向右画横线
 		if (direction.directionX == 1) {
 			line.x = lastObj.x + lastObj.width/3;
-		}else if(direction.directionX==-1){//向左划横线
+		}else if(direction.directionX==-1){//向左画横线
 			line.x = lastObj.x + lastObj.width / 6 - lastObj.width;
 		}
 		line.y = lastObj.y;

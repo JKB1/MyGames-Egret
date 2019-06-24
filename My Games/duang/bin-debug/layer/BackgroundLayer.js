@@ -57,6 +57,9 @@ var BackgroundLayer = (function (_super) {
             });
         }
     };
+    //下一关卡
+    BackgroundLayer.prototype.nextLevel = function () {
+    };
     return BackgroundLayer;
 }(eui.Component));
 __reflect(BackgroundLayer.prototype, "BackgroundLayer", ["eui.UIComponent", "egret.DisplayObject"]);

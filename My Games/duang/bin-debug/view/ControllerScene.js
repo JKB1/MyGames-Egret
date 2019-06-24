@@ -24,8 +24,6 @@ var ControllerScene = (function (_super) {
         }));
         return _this;
     }
-    ControllerScene.prototype.init = function () {
-    };
     ControllerScene.prototype.initTime = function () {
         this.time.addEventListener(egret.TimerEvent.TIMER, this.timeFunc, this);
         this.time.start();

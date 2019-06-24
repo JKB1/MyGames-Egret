@@ -86,6 +86,7 @@ var AnimationLayer = (function (_super) {
                     var lastObj = this.clickArray[this.clickArray.length - 2];
                     var rowDiff = Math.abs(lastObj.row - eleTarget.row);
                     var colDiff = Math.abs(lastObj.col - eleTarget.col);
+                    //生成线
                     if (rowDiff == 0 && colDiff == 1) {
                         line = LineData.drawLineToRow(lastObj, direction);
                     }
@@ -109,7 +110,7 @@ var AnimationLayer = (function (_super) {
             }
         }
     };
-    //判断是否是相同元素
+    //判断是否是相同元素（通过元素的id来判断）
     AnimationLayer.prototype.isSame = function (obj) {
         if (this.clickArray.length == 0) {
             return true;
@@ -119,7 +120,7 @@ var AnimationLayer = (function (_super) {
         }
         return false;
     };
-    //判断是否是相邻元素
+    //判断是否是相邻元素（根据行差值判断是不是相邻元素）
     AnimationLayer.prototype.isSide = function (obj) {
         if (this.clickArray.length == 0) {
             return true;

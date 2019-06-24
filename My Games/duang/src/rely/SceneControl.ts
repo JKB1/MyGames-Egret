@@ -1,8 +1,3 @@
-/**
- *
- * @author 
- *
- */
 class SceneControl {
     private static nowScene:egret.DisplayObjectContainer;
     private static stage:egret.Sprite;
