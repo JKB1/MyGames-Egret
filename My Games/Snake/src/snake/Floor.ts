@@ -31,7 +31,7 @@ class Floor {
 						position: { x: x, y: y},
 						type: FLOOR.WALL,
 						})
-				}else{
+				}else{//蛇的运动区域
 					td.className = FLOOR.SPACE;
 					this.blocks.push(
 					{

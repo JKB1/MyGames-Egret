@@ -58,7 +58,7 @@ class AnimationLayer extends egret.DisplayObjectContainer {
 	}
 	//思路: 先把第一次点击的加进去clickArray,然后判断下一个obj.id是不是与clickArray[0].id一样，一样的话再加进去clickArray
 	public moveFunc(e: egret.TouchEvent) {
-		var eleTarget: ElementData = e.target;
+		var eleTarget: ElementData = e.target;//当前点击的对象
 		var isExist: boolean = false;
 		if (eleTarget.id == undefined) {		//对点击的目标对象的id进行判断
 			return;
@@ -129,7 +129,6 @@ class AnimationLayer extends egret.DisplayObjectContainer {
 			|| rowDiff == 1 && colDiff == 1) { //对角
 			return true;
 		}
-
 		return false;
 	}
 	//判断当前的obj是否存在于clickArray数组

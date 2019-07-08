@@ -3,10 +3,10 @@ class Snake extends egret.DisplayObjectContainer{
 	public snakeBody: Block[];//蛇的身体
 	private snakeSpeed: number;//蛇的速度
 	private floor: Floor;
-	private direction: Direction;//蛇运动的方向
+	private direction: Direction;//当前蛇运动的方向
 	private timer1: egret.Timer;//控制蛇的移动 
 	private timer2: egret.Timer;//时间
-	private score: number = 0;
+	private score: number = 0;//分数
 	public foodBlock: Block;//食物
 	public statusLayer: statusLayer;
 	public constructor(floor : Floor) {
@@ -44,7 +44,7 @@ class Snake extends egret.DisplayObjectContainer{
 		this.statusLayer.timer2 = this.timer2;
 		this.keyBoardEvent();
 	}
-	//使蛇运动起来ß
+	//使蛇运动起来   
 	public snakeMove(){
 		//蛇的速度随着时间的减少而变快
 		this.snakeSpeed -= this.statusLayer.currentGameTime*4;
