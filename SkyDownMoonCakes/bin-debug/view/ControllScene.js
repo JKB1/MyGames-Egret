@@ -55,7 +55,10 @@ var ControllScene = (function (_super) {
         GameData.Instance.dropSpeed = 40 + (GameData.Instance.level * 1);
         GameData.Instance.dropInterval -= 0.002;
         GameData.Instance.currentInteval += 0.1;
+        //GameData.Instance.dropInterval越来越小，与GameData.Instance.currentInteval越接近，执行的频率越来越高
+        //所以越到后面掉落的元素越多
         if (GameData.Instance.dropInterval <= GameData.Instance.currentInteval) {
+            //生产掉落元素
             this.animationLayer.createElement();
             GameData.Instance.currentInteval = 0;
         }

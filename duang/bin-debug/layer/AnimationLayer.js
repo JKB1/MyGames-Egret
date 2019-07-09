@@ -66,7 +66,7 @@ var AnimationLayer = (function (_super) {
     };
     //思路: 先把第一次点击的加进去clickArray,然后判断下一个obj.id是不是与clickArray[0].id一样，一样的话再加进去clickArray
     AnimationLayer.prototype.moveFunc = function (e) {
-        var eleTarget = e.target;
+        var eleTarget = e.target; //当前点击的对象
         var isExist = false;
         if (eleTarget.id == undefined) {
             return;
@@ -239,6 +239,7 @@ var AnimationLayer = (function (_super) {
     };
     //旧元素滑落
     AnimationLayer.prototype.dropCol = function (col) {
+        //从下往上开始检测
         for (var row = this.maxRow - 1; row >= 0; row--) {
             var obj = this.obj[row][col];
             var isDrop = false;
@@ -267,6 +268,7 @@ var AnimationLayer = (function (_super) {
             if (obj != null) {
                 continue;
             }
+            //初始化新元素的起始位置
             var objRow = -1;
             var newObj = this.element(row, col);
             newObj.y = this.calY(objRow);
