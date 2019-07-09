@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="640">
+	<w:Config id="16a0d320362" ></w:Config>
+	<e:Image source="HomPageBg_png"/>
+	<e:Image id="playBtn" source="HomeStartBtn_png" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="rulerBtn" source="HomeRuleBtn_png" y="609" horizontalCenter="0.5"/>
+	<e:Image id="rankBtn" y="710" source="RankingListBtn_png" horizontalCenter="0.5"/>
+	<e:Image id="blue" x="106" y="920" source="1-2_png"/>
+	<e:Image id="pink" y="910" source="1-3_png" horizontalCenter="0"/>
+	<e:Image id="yellow" x="444" y="918" source="1-4_png"/>
+</e:Skin>
