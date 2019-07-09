@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="GuideLayerSkin" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing"  width="640">
-	<w:Config id="1695c4c27b5" ></w:Config>
-	<e:Rect id="guide" height="1108" width="640" horizontalCenter="0" fillAlpha="0.6" enabled="true" y="-100"/>
-	<e:Image source="guide_png" horizontalCenter="0" verticalCenter="0"/>
-</e:Skin>
