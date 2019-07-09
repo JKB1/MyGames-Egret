@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OverSceneSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1698ad37106" ></w:Config>
+	<e:Image source="OverBg_png" anchorOffsetX="0" anchorOffsetY="0"/>
+	<e:Image id="rankBtn" x="118" y="843" source="sRankBtn_png"/>
+	<e:Image id="tryAgain" x="382" y="843" source="oAgainBtn_png"/>
+	<e:Label id="scoreLabel" text="50" y="247" fontFamily="Microsoft YaHei" anchorOffsetX="-1" width="216" anchorOffsetY="0" height="173" size="160" verticalAlign="middle" textAlign="center" horizontalCenter="0"/>
+</e:Skin>
