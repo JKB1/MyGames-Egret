@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AttentionLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15ce852dbd5" ></w:Config>
+	<e:Rect width="640" height="1008" x="0" y="0" fillAlpha="0.7"/>
+	<e:Image source="p1_01_png" x="40.5" y="227.94"/>
+	<e:Image source="p1_02_png" x="187.5" y="290.82"/>
+	<e:Image id="alreadyBtn" source="p1_03_png" x="144" y="470.5"/>
+	<e:Image id="nowBtn" source="p1_04_png" x="364.5" y="470.5"/>
+</e:Skin>

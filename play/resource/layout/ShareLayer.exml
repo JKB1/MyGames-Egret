@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ShareLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15ce859dcef" ></w:Config>
+	<e:Rect width="640" height="1008" x="0" y="0" fillAlpha="0.7"/>
+	<e:Image source="shareBg_png" x="49.5" y="89.94"/>
+	<e:Image id="IknowBtn" source="knowBtn_png" x="192.5" y="727.09"/>
+</e:Skin>

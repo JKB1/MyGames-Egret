@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftItemSkin" width="610" height="110" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15ce8ee519b" ></w:Config>
+	<e:Label text="{data.name}" x="15.5" y="10" anchorOffsetX="0" width="581" textAlign="center" verticalAlign="middle"/>
+	<e:Label text="{data.code}" x="17.5" y="58.5" anchorOffsetX="0" width="582" verticalAlign="middle" textAlign="center"/>
+	<e:Rect width="610" height="4" x="0" y="106" fillColor="0xffffff" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

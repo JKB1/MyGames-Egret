@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PopupLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15ce8f58f8b" ></w:Config>
+	<e:Rect width="640" height="1008" x="0" y="0" fillAlpha="0.7"/>
+	<e:Group id="PopupLayerAni" width="595.88" height="620" x="26" y="-620" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Image source="p1_01_png" x="14.5" y="64" scaleX="1" scaleY="1"/>
+		<e:Image source="p12_01_png" x="217.5" y="86" scaleX="1" scaleY="1"/>
+		<e:Label id="TextLabel" text="" x="56" y="168" anchorOffsetX="0" width="470" anchorOffsetY="0" height="230" textColor="0x5c5c5e" verticalAlign="middle" textAlign="center" size="40" scaleX="1" scaleY="1"/>
+		<e:Image id="IknowBtn" source="p12_02_png" x="221.5" y="502" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

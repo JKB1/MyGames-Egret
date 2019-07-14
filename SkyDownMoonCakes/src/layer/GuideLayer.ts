@@ -14,8 +14,10 @@ class GuideLayer extends eui.Component implements  eui.UIComponent {
 			}
 			this.parent.removeChild(this);
 			
-		})
+		});
+		
 	}
+	
 	
 	
 }

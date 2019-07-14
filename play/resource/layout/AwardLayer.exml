@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15d1bf30f95" ></w:Config>
+	<e:Rect width="640" height="1008" x="0" y="0" fillAlpha="0.7"/>
+	<e:Image source="p1_01_png" x="40.5" y="262"/>
+	<e:Image id="IknowBtn" source="p12_02_png" x="247.5" y="700"/>
+	<e:Image source="p10_1_png" x="243.5" y="284"/>
+	<e:Label id="TextLabel" text="" x="82" y="366" anchorOffsetX="0" width="470" anchorOffsetY="0" height="230" textColor="0x5c5c5e" verticalAlign="middle" textAlign="center" size="40"/>
+	<e:Image id="getCardBtn" source="getCardBtn_png" x="247.5" y="700"/>
+</e:Skin>

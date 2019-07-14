@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RuleLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15ce8c02344"></w:Config>
+	<e:Rect width="640" height="1008" x="0" y="0" fillAlpha="0.7" />
+	<e:Rect width="640" height="4" x="0" y="109.36" fillColor="0xffffff" anchorOffsetX="0" anchorOffsetY="0" />
+	<e:Label text="规则" x="47.3" y="35.51" size="50" fontFamily="Microsoft YaHei" />
+	<e:Image id="closeBtn" source="Close_png" x="545.94" y="21.51"/>
+	<e:Scroller width="620" height="860" x="11" y="123" anchorOffsetX="0" anchorOffsetY="0">
+		<e:Group>
+			<e:Label id="ruleLabel" text="" x="12.12" y="0" width="600" size="30" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

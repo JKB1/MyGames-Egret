@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomeSceneSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="15ce7495055" ></w:Config>
+	<e:Image source="1-9_png" x="0" y="0" width="640"/>
+	<e:Image id="playBtn" source="HomeStartBtn_png" x="-10.91" y="497.58" scaleX="0.1" scaleY="0.1" anchorOffsetX="90.91" anchorOffsetY="75.76"/>
+	<e:Image id="ruleBtn" source="HomeRuleBtn_png" x="229.5" y="613.5"/>
+	<e:Image id="rankBtn" source="RankingListBtn_png" x="232.5" y="702"/>
+	<e:Image id="giftBtn" source="giftBtn_png" x="232.5" y="702" width="181" height="69"/>
+	<e:Image source="1-1_png" x="94.5" y="110" visible="false"/>
+	<e:Image id="blue" source="1-2_png" x="135.5" y="850"/>
+	<e:Image id="pink" source="1-3_png" x="283.5" y="862"/>
+	<e:Image id="yellow" source="1-4_png" x="415.5" y="857"/>
+</e:Skin>

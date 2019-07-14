@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PlaySceneSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*" >
+	<w:Declarations>
+	</w:Declarations>
+	<w:Config id="15ce7648da1" ></w:Config>
+	<e:Image source="PlayBg_png" x="0" y="0"/>
+	<e:Image source="2-3_png" x="266.5" y="42.88"/>
+	<e:Image source="2-2_png" x="12" y="45.88"/>
+	<e:Image source="欢乐消除2-32_png" x="387.5" y="45.88"/>
+	<e:Group id="CountDownAni" width="640" height="1008" x="0" y="0" visible="false">
+		<e:Image id="a" source="2-7-1_png" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="b" source="2-7_png" x="0" y="145.27" scaleX="1" scaleY="1" visible="false"/>
+	</e:Group>
+	<e:Image source="2-6_png" x="19.97" y="174.27"/>
+	<e:Label id="targetScore" text="" x="102" y="71" anchorOffsetX="0" width="115" anchorOffsetY="0" height="33" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei"/>
+	<e:Label id="levelScore" text="" x="483.52" y="71" anchorOffsetX="0" width="115" anchorOffsetY="0" height="33" verticalAlign="middle" textAlign="center" fontFamily="Microsoft YaHei"/>
+	<e:Label id="time" text="00" x="289" y="58.54" anchorOffsetY="0" height="55" anchorOffsetX="0" width="66" verticalAlign="middle" textAlign="center" fontFamily="Microsoft JhengHei" bold="true" border="false" blendMode="add" horizontalCenter="2" strokeColor="0xff962d" stroke="2" size="50" textColor="0xff4c00" borderColor="0xff8402" multiline="true" wordWrap="true" backgroundColor="0xed1515" visible="false"/>
+	<e:Image id="timeTen" x="286" y="60" source="2_png"/>
+	<e:Image id="timeOne" source="0_png" x="320.5" y="60"/>
+</e:Skin>

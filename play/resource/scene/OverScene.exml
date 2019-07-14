@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OverSceneSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15ce7ae83f9" ></w:Config>
+	<e:Group id="overSceneAni" width="640" height="1008" x="320" y="504" anchorOffsetX="320" anchorOffsetY="504" scaleX="1" scaleY="1">
+		<e:Image source="p5_01_png" x="320" y="504" scaleX="1" scaleY="1" anchorOffsetX="320" anchorOffsetY="504" height="1008"/>
+		<e:Image id="rankBtn" source="p5_04_png" x="439" y="779" scaleX="1" scaleY="1"/>
+		<e:Image id="giftBtn" source="p5_07_png" x="439" y="779" width="201" height="77"/>
+		<e:Image id="shareBtn" source="p5_05_png" x="0" y="779" scaleX="1" scaleY="1"/>
+		<e:Image id="againBtn" source="p5_06_png" x="219.5" y="779" width="201" height="77" scaleX="1" scaleY="1"/>
+		<e:Label text="你的分数" x="186.03" y="497.44" anchorOffsetX="0" width="261.88" anchorOffsetY="0" height="72.42" textColor="0xff0000" fontFamily="Microsoft YaHei" size="50" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+		<e:Label id="score" text="" x="245" y="614.91" size="50" fontFamily="Microsoft YaHei" textColor="0xff0000" width="150" height="50" verticalAlign="middle" textAlign="center" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

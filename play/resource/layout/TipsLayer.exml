@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TipsLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15d1bd51432" ></w:Config>
+	<e:Image id="tips" x="320" y="504" scaleX="0" scaleY="0" source="tip_png" anchorOffsetX="320" anchorOffsetY="504"/>
+</e:Skin>

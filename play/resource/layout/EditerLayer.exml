@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EditerLayerSkin" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15ce8fc5db2" ></w:Config>
+	<e:Rect width="640" height="1008" x="0" y="0" fillAlpha="0.7"/>
+	<e:Image source="InfoBox_png" x="33.5" y="189.94"/>
+	<e:Label text="姓名：" x="94" y="373" anchorOffsetX="0" width="122.49" anchorOffsetY="0" height="51.21" fontFamily="Microsoft YaHei" size="40" textColor="0x4a4a4b"/>
+	<e:Label text="手机：" x="97.51" y="498.4" anchorOffsetX="0" width="122.49" anchorOffsetY="0" height="51.21" fontFamily="Microsoft YaHei" size="40" textColor="0x4A4A4B"/>
+	<e:Rect width="294.24" height="2" x="228.92" y="426.27" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x4A4A4B"/>
+	<e:Rect width="294.24" height="2" x="229" y="541" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x4a4a4b"/>
+	<e:Image id="confirmBtn" source="confirm_png" x="229" y="642"/>
+	<e:EditableText id="inputName" width="310" height="60" text="" x="220" y="366" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" textColor="0x4a4a4b"/>
+	<e:EditableText id="inputPhone" width="310" height="60" text="" x="213.16" y="479.61" anchorOffsetX="0" anchorOffsetY="0" verticalAlign="middle" textAlign="center" textColor="0x4A4A4B" maxChars="11"/>
+</e:Skin>
